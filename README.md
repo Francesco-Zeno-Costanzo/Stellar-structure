@@ -1,6 +1,6 @@
 # Stellar-structure
 
-Here there are codes for the resolution of the stellar structure in hydrostatic equilibrium in the framework the Newtonian gravity of general relativity.
+Here there are codes for the resolution of the stellar structure in hydrostatic equilibrium in the framework of the Newtonian gravity of general relativity.
 
 
 ## Newtonian gravity ##
@@ -13,7 +13,7 @@ Assuming a polytropic equation of state it is possible to obtain the Lane Emden 
 
 <img src="https://latex.codecogs.com/svg.image?&space;\frac{1}{\xi^2}&space;\frac{d}{d\xi}&space;\left({\xi^2&space;\frac{d\theta}{d\xi}}\right)&space;=&space;-&space;\theta^n&space;" title="https://latex.codecogs.com/svg.image? \frac{1}{\xi^2} \frac{d}{d\xi} \left({\xi^2 \frac{d\theta}{d\xi}}\right) = - \theta^n " />
 
-from which it is then possible to derive the limiting mass of white dwarfs, as is done in the code 'Chandrasekhar_limit.py'.
+from which it is then possible to derive the limiting mass of white dwarfs, as it is done in the code 'Chandrasekhar_limit.py'.
 
 
 ## General Relativity ##
