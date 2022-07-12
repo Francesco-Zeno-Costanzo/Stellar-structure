@@ -31,3 +31,8 @@ Does the code work? Yes, the trends of the curves are correct and probably, perh
 
 
 The correct way, or in any case the most used, to solve these equations is to pass through a tabulated equation of state that is interpolated by the code (in this case a cubic interpolation is used). The code keeps track of each unit of measurement so now both trends and numeric values ​​are correct. The resolution class is implemented in the 'TOV.py' code and an example of its use is provided in the 'ese_TOV.py' code.
+
+
+As an example, a certain mass radius curve for a certain equation of state is shown:
+
+![](MvR.png)
