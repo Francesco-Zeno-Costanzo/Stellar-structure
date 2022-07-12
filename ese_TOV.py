@@ -5,7 +5,7 @@ from TOV import TOV
 
 ##EOS
 
-path = r"C:\Users\franc\Documents\codici python\ode\struttura-stellare\eos_DD2F.dat"
+path = r"C:\Users..."
 
 #Unità di misura in MeV/fm^3, MeV/fm^3 e 1/fm^3
 ene_dens, pre, num_dens = np.loadtxt(path, unpack=True)
@@ -64,7 +64,7 @@ plt.xlabel(r'R [km]')
 
 
 #salvo su file
-path = r"C:\Users\franc\Documents\codici python\ode\struttura-stellare\MvR1.txt"
+path = r"C:\Users..."
 file = open(path, "w")
 riga = f'# Massa [M/Msun] \t Raggio [km]\n'
 file.write(riga)
